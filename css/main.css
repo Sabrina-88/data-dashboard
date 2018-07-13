@@ -1,3 +1,59 @@
-/*
- * Estilos de tu proyecto
- */
+@charset "utf-8";
+
+*{
+	padding:0;
+	margin:0;
+	}
+header{
+	height:80px;
+	width:100%;
+	background-color:#FFE521;
+	color:#000000;
+	}
+
+h1{
+	display:flex;
+	align-content:center;
+	justify-content:center; 
+	}
+
+.div{
+	height:300px;
+	width:100%;
+	display:flex;
+	align-content:center;
+	justify-content:center;
+	border:1px solid blue;
+	}
+
+.menu1{
+	height:250px;
+	width:250px;
+	margin:25px;
+	display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+	border: 1px solid #FF009E ;
+	}
+
+a{	
+	text-decoration:none;
+	color:#000000;
+	padding-top:20px;
+	}
+	h3{
+		display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+	font-size:24px;
+}
+	
+	.flags{
+		height:100px;
+	width:150px;
+	display:flex;
+	align-content:center;
+	justify-content:center;
+	}
