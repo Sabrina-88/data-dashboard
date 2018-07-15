@@ -1,59 +1,77 @@
 @charset "utf-8";
 
 *{
-	padding:0;
-	margin:0;
+	padding: 0;
+	margin: 0;
 	}
 header{
-	height:80px;
-	width:100%;
-	background-color:#FFE521;
-	color:#000000;
-	}
+	display: flex;
+	height: 80px;
+	width: 100%;
+	background-color: #FFE521;
+	justify-content: center;
+}
+
+.logo-header{
+	width: 25%;
+}
 
 h1{
-	display:flex;
-	align-content:center;
-	justify-content:center; 
-	}
+	display: flex;
+	align-content: center;
+	justify-content: center; 
+}
 
 .div{
-	height:300px;
-	width:100%;
-	display:flex;
-	align-content:center;
-	justify-content:center;
-	border:1px solid blue;
-	}
+	height: 300px;
+	width: 100%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
 
 .menu1{
-	height:250px;
-	width:250px;
-	margin:25px;
+	height: 250px;
+	width: 250px;
+	margin: 25px;
 	display: flex;
     align-content: center;
     justify-content: center;
     align-items: center;
 	border: 1px solid #FF009E ;
-	}
+}
 
-a{	
-	text-decoration:none;
-	color:#000000;
-	padding-top:20px;
-	}
-	h3{
-		display: flex;
+.main-menu{	
+	text-decoration: none;
+	color: #000000;
+	padding-top: 20px;
+}
+
+h3{
+	display: flex;
     align-content: center;
     justify-content: center;
     align-items: center;
-	font-size:24px;
+	font-size: 24px;
+	font-family: 'Bitter', serif;
 }
 	
-	.flags{
-		height:100px;
-	width:150px;
-	display:flex;
-	align-content:center;
-	justify-content:center;
-	}
+.flags{
+	height: 100px;
+	width: 150px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.button-back{
+	display: flex;
+	width: 10%;
+	height: 10%;
+	align-content: flex-end;
+
+}
+
+.image-button{
+	
+}
