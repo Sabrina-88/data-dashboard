@@ -11,12 +11,14 @@ var frstSprtTechAQP2 = {
 };
 
 function selecionaTurma(){
+  //Zerar o valor das notas dos sprints e limpar a telas
   var generationYear = dropMenu.value;
   var showGeneration = document.getElementById("generation-display");
   showGeneration.innerHTML = "";
   frstSprtTechAQP1.grades = 0;
   frstSprtTechAQP2.grades = 0;
 
+//Percorrer até a nota tech do sprint 1 de 2016-2 e 2017-1
   for (generations in data.AQP){
     for (j in data.AQP[generations].students){
         var grades = data.AQP[generations].students[j].sprints[0].score.tech;
@@ -27,20 +29,18 @@ function selecionaTurma(){
         }
       }
   }
-
-  var createH2 = document.createElement("h2");
-  var createP = document.createElement("p");
-  createH2.innerHTML = "SPRINT 1";
-  
+ //Percorre o número de sprints e cria um h2 e um p com a nota a cada sprint
   if (dropMenu.value == "2016-2"){
-      createP.innerHTML = frstSprtTechAQP1.grades;
-  } else if (dropMenu.value == "2017-1"){
-      createP.innerHTML = frstSprtTechAQP2.grades;
+    for (sprints in data.AQP["2016-2"].students[j].sprints){
+        var createH2 = document.createElement("h2");
+        var createP = document.createElement("p");
+        createH2.innerHTML= "SPRINT " + (parseInt(sprints) + 1);
+        createP.innerHTML = frstSprtTechAQP1.grades;
+        showGeneration.appendChild(createH2);
+        showGeneration.appendChild(createP);
+      }
   }
-      showGeneration.appendChild(createH2);
-      showGeneration.appendChild(createP);
 };
-
 
 function carregaMenu(){
   var createGen = document.createElement("option");

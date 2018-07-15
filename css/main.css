@@ -64,14 +64,31 @@ h3{
 	justify-content: center;
 }
 
-.button-back{
+#main-city {
 	display: flex;
-	width: 10%;
-	height: 10%;
-	align-content: flex-end;
-
+	align-content: center;
+	justify-content: space-between;
+	height: 500px;
 }
-
-.image-button{
-	
+.div-back {
+	display: flex;
+	align-items: flex-end;
+}
+.button-back {
+	display: flex;
+	justify-content: flex-end;
+}
+.image-button {
+	width: 80px;
+	height: 80px;
+}
+select {
+	display: block;
+	margin: auto;
+	font-size: 24px;
+	background-color: #FF009E;
+	color: #fff;
+	padding: 15px;
+	text-transform: capitalize;
+	border: none;
 }
