@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/main.css" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">  
 <title>Data Dashboard</title>
 </head>
  <body>
@@ -11,28 +12,40 @@
       <img class="logo-header" src="assets/images/laboratoria.png">
    </header>
    <main>
-     <div class="div">
-       <div class="menu1"> <a href="arequipa.html" class="main-menu">
-         <h3>Arequipa</h3>
-         <img src="assets/images/perubandeira.jpg" alt="Bandeira do Peru" class="flags"></a>
-       </div>
-       <div class="menu1"> <a href="lima.html" class="main-menu">
-         <h3>Lima</h3>
-         <img src="assets/images/perubandeira.jpg" alt="Bandeira do Peru" class="flags"></a>
-       </div>
+     <div class="menu-profile">
+        <img class="profile-image" src="assets/images/VanessaProfile.jpg">
+        <ul>
+          <li>Bem vinda, Vanessa!</li>
+          <li>Cronograma</li>
+          <li>Formulários</li>
+          <li>Agenda</li>
+          <li>Configurações</li>
+        </ul>
      </div>
-     <div class="div">
-       <div class="menu1"> <a href="cidadedomex.html" class="main-menu">
-         <h3>Cid. México</h3>
-         <img src="assets/images/mexicobandeira.jpg" alt="Bandeira do México" class="flags"></a>
-       </div>
-       <div class="menu1"> <a href="santiago.html" class="main-menu">
-         <h3>Santiago</h3>
-         <img src="assets/images/chilebandeira.jpg" alt="Bandeira do México" class="flags"></a>
-       </div>
-     </div>
+     <div class="div" >
+        <div class="menu1"> <a href="sede.html#AQP" class="main-menu" id="AQP">
+           <h3>Arequipa</h3>
+           <img src="assets/images/perubandeira.jpg" alt="Bandeira do Peru" class="flags"></a>
+        </div>
+        <div class="menu1"> <a href="sede.html#LIM" class="main-menu" id="LIM">
+           <h3>Lima</h3>
+           <img src="assets/images/perubandeira.jpg" alt="Bandeira do Peru" class="flags"></a>
+        </div>
+        <div class="menu1"> <a href="sede.html#CDMX" class="main-menu" id="CDMX">
+          <h3>Cid. México</h3>
+          <img src="assets/images/mexicobandeira.jpg" alt="Bandeira do México" class="flags"></a>
+        </div>
+        <div class="menu1"> <a href="sede.html#SCL" class="main-menu" id="SCL">
+          <h3>Santiago</h3>
+          <img src="assets/images/chilebandeira.jpg" alt="Bandeira do México" class="flags"></a>
+        </div>
+      </div>       
    </main>
-   <script src="./js/data.js"></script> 
-   <script src="./js/app.js"></script>
+   <footer>
+     <img src="assets/images/LaboratoriaAMARELO" alt="logo laboratoria">
+   </footer>
+   <script src="js/data.js"></script>
+   <script src="js/app.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"> </script>
  </body>
 </html>
