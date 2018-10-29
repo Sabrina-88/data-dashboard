@@ -1,25 +1,36 @@
+
+
 # Data Dashboard
-
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Producto final_
-
-***
-
-## Flujo de trabajo
-
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
-
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
-
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/freelancer.git
-   ```
-
-3. Cuando hayas terminado tu producto, envía un Pull Request a este repositorio
-   (puedes solicitar apoyo de tus profes para este paso).
-
-> Nota: No olvides que es una buena práctica describir tu proyecto en este
-> archivo `README.md` y también desplegar tu web a Github Pages :smiley:.
+## Motivation
+Laboratoria´s Development Course Project - Create an interactive web page of medium complexity that shows the data and reports of the students of the Laboratory of several venues for the local Training Manager.
+ 
+ 
+## Technology used
+* HTML
+* CSS
+* Javascript
+* Jquery
+* Json
+ 
+## Future versions
+**Version 002 -** Refactor code to make it more functional
+ 
+**Version 003 -** Improve UX and UI
+ 
+ 
+#
+ 
+## Motivação
+Projeto do curso de desenvolvimento da Laboratoria - Criar uma página web interativa, de média complexidade, que mostre os dados e relatorios das alunas da Laboratoria de diversas sedes para a Training Manager local.
+ 
+## Tecnologias utilizadas
+* HTML
+* CSS
+* Javascript
+* Jquery
+* Json
+ 
+## Versões futuras
+**Versão 002 -** Refatorar código para torná-lo mais funcional.
+ 
+**Versão 003 -** Melhorar UX e UI
